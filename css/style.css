@@ -1,10 +1,10 @@
 :root {
-    --primaryText: #fff;
-    --secondaryText: #ff015e;
-    --primary: rgba(156, 39, 176, .60);
-    --secondary: rgba(255, 1, 94, .60); 
-    --buttonHover: rgba(182, 233, 255, 0.8);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --primaryText: #ffffff;
+    --secondaryText: #ffffff;
+    --primary: rgba(92, 35, 12, 0.712);
+    --secondary: rgba(216, 117, 59, 0.226); 
+    --buttonHover: rgba(182, 233, 255, 0.747);
+    --smallButtonHover: rgba(0, 0, 0, 0.185);
 }
 
 html {
@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: "Gelasio", serif;
     line-height: 1.5;
     font-size: 18px;
     display: flex;
@@ -87,9 +87,7 @@ img {
     color: var(--secondaryText);
 }
 
-.name strong {
-    background-color: rgba(0, 0, 0, 0.50);
-}
+
 
 .section-header {
     padding-top: .5em;
@@ -141,6 +139,11 @@ img {
 
 .intro {
     margin: 0 auto;
+    font-size: 1.6em;
+    line-height: 1.4;
+    background-color: var(--primary);
+    padding: 0.6em 1em;
+    border-radius: 16px;
 }
 
 .section {
